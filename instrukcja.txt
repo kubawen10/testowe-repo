@@ -1,0 +1,8 @@
+git rebase -i HEAD~ilosc commitow
+zmieniam te kore chce na edit
+GIT_COMMITTER_DATE="Wed May 15 14:00 2024 +0200" git -c user.name="Marcin27141" -c user.email=marcin.tkocz@op.pl commit --amend --reset-author --date "Wed May 15 14:00 2024 +0200" --no-edit
+git rebase --continue
+
+powtarzasz dla wybranych
+
+git push origin main -f
